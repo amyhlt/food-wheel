@@ -1,0 +1,28 @@
+{
+  "name": "food-wheel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.78.0",
+    "axios": "^1.15.2",
+    "next": "^11.1.4",
+    "next-pwa": "^5.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^2.2.19"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
