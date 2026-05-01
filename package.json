@@ -7,6 +7,10 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+  "node": "16.x",
+  "npm": "8.x"
+},
   "dependencies": {
     "@supabase/supabase-js": "^2.78.0",
     "axios": "^1.15.2",
